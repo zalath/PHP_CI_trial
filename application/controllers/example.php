@@ -9,7 +9,7 @@ class Example extends MY_Controller {
         $this->ci_smarty->assign('text',$text .' use Smarty'); // 亦可
         //$this->assign('text',$text);
         $this->assign('title',$title);
-        $this->ci_smarty->display('test.html'); // 亦可
+        $this->ci_smarty->display('bootstrap.html'); // 亦可
         //$this->display('test.html');
     }
 }
