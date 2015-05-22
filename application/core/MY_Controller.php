@@ -1,7 +1,8 @@
-<?php if (!defined('BASEPATH')) exit('No direct access allowed.');
+<?php 
+	if (! defined ('BASEPATH')) exit('No direct access allowed.');
 class MY_Controller extends CI_Controller { // 原文这里写错
     public function __construct() {
-        parent::__construct();	
+        parent::__construct();
     }
 
     public function assign($key,$val) {

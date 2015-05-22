@@ -1,0 +1,16 @@
+This project is based on Code Ignitor Framwork
+     related test files:
+             Welcome.php(can be modified in /config/route.php)
+             Welcome_message.php(front page file)
+
+Added Smarty Template Engine; (bewrite in notebook)
+      related test files:
+              example.php
+              test.html(front page file)
+
+Added Bootstrap with the file /Style/bootstrap/
+      related test files:
+              example.php
+              bootstrap.html
+
+Added

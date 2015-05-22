@@ -1,32 +1,32 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-21 17:26:50
-         compiled from "E:\MyFile\Projects\PHP\Araa\application\views\templates\bootstrap.html" */ ?>
-<?php /*%%SmartyHeaderCode:7073555da4da7c7d44-90192055%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 15:15:26
+         compiled from "E:\MyFile\Projects\PHP\Araa\application\views\templates\Mysql\Mysql.html" */ ?>
+<?php /*%%SmartyHeaderCode:31239555da4ba89b715-74691012%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '1e8c345d9514e68ebafe666c85a5d4440d89d16c' => 
+    '07413a9fe24d17d3e0655fd1418d49b87c6a7136' => 
     array (
-      0 => 'E:\\MyFile\\Projects\\PHP\\Araa\\application\\views\\templates\\bootstrap.html',
-      1 => 1431415125,
+      0 => 'E:\\MyFile\\Projects\\PHP\\Araa\\application\\views\\templates\\Mysql\\Mysql.html',
+      1 => 1432278924,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7073555da4da7c7d44-90192055',
+  'nocache_hash' => '31239555da4ba89b715-74691012',
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_555da4da825966_86913787',
+  'unifunc' => 'content_555da4ba8ce3a8_18680388',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_555da4da825966_86913787')) {function content_555da4da825966_86913787($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_555da4ba8ce3a8_18680388')) {function content_555da4ba8ce3a8_18680388($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>Prototype</title>
 
     <!-- Bootstrap -->
     <link href="/Style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,17 +43,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <![endif]-->
   </head>
   <body>
-    <h1>你好，世界！from bootstrap</h1>
+    <h1 style="padding:10px 20px;margin-top:20px;">MySQL TESTing</h1>
 
     <div class="container-fluid">
-      <a class="btn btn-default" href="#" role="button">Link</a>
-      <button class="btn btn-default" type="submit">Button</button>
-      <input class="btn btn-default" type="button" value="Input">
-      <input class="btn btn-default" type="submit" value="Submit">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+             <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="">链接查询</a></li>
+                <li role="presentation"><a href="#">更新</a></li>
+                <li role="presentation"><a href="#">删除</a></li>
+                <li role="presentation"><a href="#">项目设置</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col-md-10" >
+          <form method="post" action="Mysql/Mysqltest/select"><input type="submit" class="btn btn-default" value="selection"/></form>
+        </div>
+     </div>
     </div>
-
-    <h1>将中的实例代码粘贴到本页即可显示模板结果</h1>
-    <h4>修改controllers/example.php内的display展示不同的页面</h4>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <?php echo '<script'; ?>
  src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"><?php echo '</script'; ?>
